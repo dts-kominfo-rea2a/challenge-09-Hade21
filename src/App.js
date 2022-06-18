@@ -11,12 +11,12 @@ const App = () => {
     <div className="App">
       <Header />
       <div className="list-contact">
-        <Contact contact={contacts[0]} />
-        <Contact contact={contacts[1]} />
-        <Contact contact={contacts[2]} />
-        <Contact contact={contacts[3]} />
-        <Contact contact={contacts[4]} />
-        <Contact contact={contacts[5]} />
+        <Contact data={contacts[0]} />
+        <Contact data={contacts[1]} />
+        <Contact data={contacts[2]} />
+        <Contact data={contacts[3]} />
+        <Contact data={contacts[4]} />
+        <Contact data={contacts[5]} />
       </div>
     </div>
   );
