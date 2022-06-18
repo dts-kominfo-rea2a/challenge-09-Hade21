@@ -5,10 +5,16 @@ import React from "react";
 const Contact = ({ contact }) => {
   return (
     <div className="card-contact">
-      <img src={contact.photo} alt="profile" className="photo" />
-      <h3 className="name">{contact.name}</h3>
-      <p className="phone">{contact.phone}</p>
-      <p className="email">{contact.email}</p>
+      <img src={contact.photo} alt="profile" className="photo" id="photo" />
+      <h3 className="name" id="name">
+        {contact.name}
+      </h3>
+      <p className="phone" id="phone">
+        {contact.phone}
+      </p>
+      <p className="email" id="email">
+        {contact.email}
+      </p>
     </div>
   );
 };
