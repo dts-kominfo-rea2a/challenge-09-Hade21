@@ -37,25 +37,21 @@ header {
   margin: auto;
   padding: 12px;
   border-bottom: 1px solid grey;
-  display: flex;
-  justify-content: left;
-  align-items: center;
   gap: 1rem;
   margin-top: 2rem;
 }
 
 .photo {
-  width: 20%;
+  width: 15%;
   border-radius: 100%;
   border: 2px solid indigo;
-}
-
-.detail {
-  text-align: left;
+  float: left;
+  margin-right: 24px;
 }
 
 .name {
-  font-size: 2rem;
+  text-align: left;
+  font-size: 1.5rem;
   font-weight: 700;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -63,6 +59,7 @@ header {
 
 .phone,
 .email {
+  text-align: left;
   font-size: 1em;
   font-weight: 600;
   color: darkslategray;
