@@ -5,7 +5,7 @@ import React from "react";
 const Contact = ({ contact }) => {
   return (
     <div className="card-contact">
-      <img src={contact.photo} alt="profile" className="profile" />
+      <img src={contact.photo} alt="profile" className="photo" />
       <div className="detail">
         <h3 className="name">{contact.name}</h3>
         <p className="phone">{contact.phone}</p>
